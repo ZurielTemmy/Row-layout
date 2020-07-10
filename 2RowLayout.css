@@ -1,0 +1,40 @@
+.banner {
+    animation-name: dog;
+    animation-duration: 14s;
+    background-image: url(lag4.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+    color: white;
+}
+@keyframes dog{
+    0%{background-image: url(lagos.jpeg); background-image: url(lag1.jpeg);}
+    25%{background-image: url(lekki.jpeg);}
+    50%{background-image: url(lag4.jpeg); background-image: url(lag2.jpeg);}
+    75%{background-image: url(lag5.jpeg);}
+    100%{background-image: url(lag3.jpeg);}
+
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+@media(max-width: 990px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media(max-width: 770px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media(max-width: 480px) {
+    .container {
+        width: 350px;
+    }
+}
